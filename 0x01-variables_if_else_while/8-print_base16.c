@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints a hexadecimal string
+ * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
