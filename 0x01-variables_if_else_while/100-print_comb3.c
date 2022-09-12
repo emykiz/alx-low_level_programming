@@ -1,26 +1,32 @@
 #include <stdio.h>
 /**
- * main - program that prints the numbers from 01 to 89
- * Numbers must be separated by , followed by a space
- * Numbers should be printed in ascending order with 2 digits
- * You can only usethe putchar function
- * Return:0
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n1 = 48;
-int n2;
-int com = 44;
-while (n1 <= 57)
+int x, y;
+for (x = 48; x <= 57; x++)
 {
-putchar(n1);
-putchar(n2);
-if (n1 != 56 || n2 != 57)
+for (y = 48; y <= 57; y++)
 {
-putchar(com);
-putchar(32);
+if (x == y || y <= x)
+{
 }
-n2 += 1;
+else
+{
+putchar(x);
+putchar(y);
+if (x == 56 && y == 57)
+{
+}
+else
+{
+putchar(44);
+putchar(' ');
+}
+}
+}
 }
 putchar('\n');
 return (0);
