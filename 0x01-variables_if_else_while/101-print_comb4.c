@@ -1,5 +1,4 @@
-#include <stfio.h>
-
+#include <stdio.h>
 /**
  * main - program that prints all possible different combinations of
  * three digits
@@ -8,7 +7,6 @@
  * 012, 120, 102, 201, 210 are considered the same combination
  * Return: 0
  */
-
 int main(void)
 {
 int n1 = 48;

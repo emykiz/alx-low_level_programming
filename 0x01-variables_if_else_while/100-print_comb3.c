@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - program that prints the numbers from 01 to 89
  * Numbers must be separated by , followed by a space
@@ -11,8 +10,8 @@ int main(void)
 {
 int n1 = 48;
 int n2;
-int com= 44;
-while (n1 <=57)
+int com = 44;
+while (n1 <= 57)
 {
 putchar(n1);
 putchar(n2);
